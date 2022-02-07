@@ -1,0 +1,116 @@
+.hdthum {
+    height: 105vh;
+}
+
+.leftBox {
+    padding-top: 130px;
+    text-align: center;
+    background-image: url(../../../../images/art.png);
+    background-repeat: no-repeat;
+}
+
+.rightBox {
+    /* margin-top: 0px; */
+    background-image: url(../../../../images/home/hero.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.thumTitle {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+}
+
+.thumSubTitle {
+    color: white;
+    text-align: left;
+}
+
+.inputBox {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    text-align: left;
+    /* justify-content: space-evenly; */
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+#input-group-dropdown-a {
+    width: 245px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+#input-group-dropdown-a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.loginbtn1 {
+    background-color: rgb(13, 155, 60);
+    color: blanchedalmond;
+    margin-top: 18px;
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 0px;
+
+}
+
+.loginbtn1:hover {
+    background-color: #D32525;
+    color: white;
+    /* border: 1px solid black; */
+    transition: 1s;
+}
+
+
+.inputBoxRight {
+    height: 80vh;
+}
+
+.box-19 {
+    background-color: #66666640;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+
+.inputcontrol:focus{
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .hdthum {
+        height: 80vh;
+    }
+
+    .leftBox {
+        padding-top: 0px;
+    }
+
+    .rightBox {
+        background-size: 0px;
+    }
+
+    .thumTitle {
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+    }
+
+    .thumSubTitle {
+        color: white;
+        text-align: center;
+    }
+}

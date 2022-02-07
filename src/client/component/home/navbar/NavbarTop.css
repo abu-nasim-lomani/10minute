@@ -1,0 +1,35 @@
+.nav-hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    color:black;
+    font-family: 'Noto Serif Bengali', serif;
+}
+.nav-hover:hover{
+    background-color: rgb(211, 37, 37);
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    transition: 1s;
+}
+.loginbtn{
+    background-color: rgb(34, 33, 33);
+    color:blanchedalmond;
+    
+}
+.loginbtn:hover{
+    background-color: rgb(241 241 241 / 65%);
+    color: black;
+    border: 1px solid black;
+    transition: 1s;
+}
+.active{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px #7a7979b8;
+    transition: .6s;
+}
+.inactive{
+    background-color:rgb(255, 255, 255);
+    
+    transition: 1s;
+}

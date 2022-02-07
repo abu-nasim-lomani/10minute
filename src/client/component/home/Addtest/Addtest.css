@@ -1,0 +1,24 @@
+.addtest-121{
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.addtest-121:hover{
+    transform: scale(1.1);
+    
+}
+.addtest{
+    height: 100%;
+    padding-bottom: 50px;
+}
+.text-center{
+    padding: 0px;
+    margin-bottom: -20px;
+}
+.tt-aspect-video{
+    height: 100px;
+    width: 190px;
+}
+.tt-pl-3{
+    padding: 8px 0 8px 24px;
+    background-color: #F7F8FA;
+}

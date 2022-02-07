@@ -1,0 +1,9 @@
+{
+    "folders": [],
+    "settings": {
+        "emmet.includeLanguages": {
+            "javascript": "javascriptreact"
+          },
+          "emmet.triggerExpansionOnTab": true
+     }
+}

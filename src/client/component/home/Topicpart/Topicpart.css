@@ -1,0 +1,129 @@
+.topic-121 {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    transform-origin: bottom;
+    margin: 0px 15px 0px 15px;
+    padding: 0px;
+}
+
+.topic-121:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 5px darkgrey;
+    border-radius: 4px;
+}
+
+.topicpart {
+    background-color: #F7F8FA;
+    margin-top: 90px;
+    padding-bottom: 100px;
+}
+
+.topic-1 {
+    font-family: Inter, "Noto Sans Bengali", sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.topic-2 {
+    font-family: Inter, "Noto Sans Bengali", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #525252;
+}
+
+.text-center {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.topic-image {
+    background-color: #055F60;
+}
+
+.topic-text {
+    position: absolute;
+    color: white;
+    padding: 40px 0 0 20px;
+
+}
+
+h2 {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.cart-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart-text-menu {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .topic-121 {
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+    }
+    .topic-110 {
+        display: none;
+    }
+    .topic-sub-110{
+        display: block !important;
+    }
+    
+    .topic-121:hover {
+        box-shadow:none;
+    }
+    .topic-121 {
+        padding: 0px;
+        background-color: #F7F8FA;
+    }
+
+    .carousel-indicators {
+        width: min-content;
+        margin: auto;
+    }
+    .carousel-inner{
+        background-color: #F7F8FA !important;
+    }
+
+    .carousel-indicators button {
+        flex: 0 1 auto;
+        width: 20px !important;
+        margin-right: 3px;
+        margin-left: 3px;
+        cursor: pointer;
+        background-color: rgb(0, 0, 0) !important;
+        border: 1px springgreen !important;
+        border-top: 2px solid transparent !important;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .topic-122 {
+        font-size: 18px !important;
+        line-height: 0px;
+    }
+
+    .topic-123 {
+        padding-left: 5px !important;
+        line-height: 20px;
+    }
+
+    .topic-124 {
+        font-size: 15px !important;
+    }
+}
